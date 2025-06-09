@@ -937,8 +937,9 @@ https://templatemo.com/tm-516-known
   .btn {
   border: #f7e61c solid 2px;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: auto;
+  width: 50%;
   
  }
  
@@ -947,12 +948,13 @@ https://templatemo.com/tm-516-known
    .btn {
   border: #f7e61c solid 2px;
   color: white;
-  /* width: 100vw; */
+  width: 100vw;
   
  }
 
   }
   .five-star {
+    
     position: absolute;
     bottom: 0;
     display: flex;
@@ -971,6 +973,7 @@ https://templatemo.com/tm-516-known
     h4 {
       padding: 0px;
       width: 50rem;
+      font-size: 1em;
     }
     h5 {
       width: 30%;
@@ -1030,6 +1033,7 @@ https://templatemo.com/tm-516-known
 
     #home h3 {
       font-size: 14px;
+
     }
 
     .entry-form {
@@ -1062,3 +1066,39 @@ https://templatemo.com/tm-516-known
     gap: 2rem;
     text-align: center;
   }
+  .engine-wood {
+    object-fit: cover;
+    height: 120%;
+    object-position: center;
+  }
+  img {
+    border-radius: 5%;
+  }
+  footer {
+    min-width: 100vw;
+  }
+  .home-slider {
+    pointer-events: none;
+    .btn {
+      width: 100% !important;
+    }
+  
+    a {
+      pointer-events: all;
+    }
+  }
+    h3 {
+      font-size: 1.4rem !important;
+    }
+    /* .custom-navbar{
+      width: 100vw;
+    } */
+
+    .btn {
+  border: #f7e61c solid 2px;
+  color: black;
+  /* font-weight: bold; */
+  margin: auto;
+  
+  
+ }
