@@ -1143,6 +1143,7 @@ https://templatemo.com/tm-516-known
     
     
   }
+  
   @media screen and (min-width:550px){
     .five-star {
       h4 {
@@ -1151,9 +1152,13 @@ https://templatemo.com/tm-516-known
     }
     
   }
-  figcaption {
-    p {
-      padding-left: 5%;
-      
+  #about{
+    display: flex !important;
+    figcaption {
+      display: flex;
+      flex-direction: column;
     }
+    
+    
   }
+ 
