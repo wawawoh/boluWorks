@@ -291,7 +291,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-nav.navbar-right li a .fa {
-    background: #29ca8e;
+    background: #1b1b1b;
     border-radius: 100%;
     color: #ffffff;
     width: 30px;
@@ -315,12 +315,12 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .nav li a:hover {
-    background-color: #29ca8e;
+    background-color: #1b1b1b;
     color: #ffffff;
   }
 
   .custom-navbar .nav li.active > a {
-    background-color: #29ca8e;
+    background-color: #1b1b1b;
     color: #ffffff;
   }
 
@@ -408,13 +408,13 @@ https://templatemo.com/tm-516-known
 
   .feature-thumb {
     border: 1px solid #f0f0f0;
-    padding: 5em 3em;
+    padding: 6em 3em;
   }
 
   .feature-thumb span {
-    background: #221d1b;
+    background: #f7e61c;
     border-radius: 50px;
-    color: #f7da1c;
+    color: #252020;
     font-size: 25px;
     font-weight: bold;
     display: inline-block;
@@ -953,46 +953,11 @@ https://templatemo.com/tm-516-known
  }
 
   }
-  .five-star {
-    
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    padding: 0 10%;
-    background-color: #000000;
-    gap: 1rem;
-    img {
-      height: 70%;
-      object-fit: contain;
-    }
-    h4 {
-      padding: 0px;
-      width: 50rem;
-      font-size: 1em;
-    }
-    h5 {
-      width: 30%;
-       margin-left: -5%;
-       text-align: center;
-       font-weight: 400;
-    }
-    
-    h1,h2 {
-      text-align: center ;
-      
-    }
-   
-  }
+ 
    .round-image {
-  border-radius: 5%;
-  max-height: 500px;
-  
-  object-fit: contain;
+  border-radius: 7%;
+    max-height: 300px;
+    object-fit: cover;
  }
  .feature-thumb {
   padding: 5%;
@@ -1088,7 +1053,7 @@ https://templatemo.com/tm-516-known
     }
   }
     h3 {
-      font-size: 1.4rem !important;
+      font-size: 1.5em !important;
     }
     /* .custom-navbar{
       width: 100vw;
@@ -1099,6 +1064,96 @@ https://templatemo.com/tm-516-known
   color: black;
   /* font-weight: bold; */
   margin: auto;
+  width: 90%;
   
   
  }
+ small {
+  color: #e0e0e0 !important;
+ }
+
+ /* .navbar {
+  width: 10px !important;
+ } */
+.row {
+  margin-right: 0  !important;
+  margin-left: 0 !important
+}
+.step-by-step {
+    background-color: #202020;
+    color: #909090;
+    h2, p, h3  {
+      color:#909090; 
+    }
+    h3 {
+
+       font-size: 1.3em;
+    }
+     
+    
+  }
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    
+  }
+  #testimonial {
+    background-color: #272727;
+    h2 {
+      color: white;
+    }
+  }
+  a {
+    text-transform: capitalize;
+  }
+
+   .five-star {
+    pointer-events: all !important;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 1rem;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding: 0 5%;
+    background-color: #000000;
+    /* gap: 1rem; */
+    img {
+      height: 70%;
+      width: min-content !important;
+      object-fit: contain;
+    }
+    h4 {
+      padding: 0px;
+      margin-right: 20%;
+      font-size: 1.3em;
+    }
+    h5 {
+      margin: 0 1rem;
+       /* margin-left: -20%; */
+       text-align: center;
+       font-weight: 400;
+    }
+    .first-star {
+      margin-right: auto
+    }
+    
+    
+    
+  }
+  @media screen and (min-width:550px){
+    .five-star {
+      h4 {
+        margin-right: 50%;
+      }
+    }
+    
+  }
+  figcaption {
+    p {
+      padding-left: 25%;
+      
+    }
+  }
